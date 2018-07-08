@@ -4,7 +4,7 @@
       { "path": "icon/android/drawable-ldpi/icon.png", "width": 36, "height": 36 },
       { "path": "icon/android/drawable-mdpi/icon.png", "width": 48, "height":48 },
       { "path": "icon/android/drawable-hdpi/icon.png", "width": 72, "height": 72 },
-      { "path": "icon/android/drawable-xhdp/icon.png", "width": 96, "height": 96 },
+      { "path": "icon/android/drawable-xhdpi/icon.png", "width": 96, "height": 96 },
       { "path": "icon/android/drawable-xxhdpi/icon.png", "width": 144, "height": 144 },
       { "path": "icon/android/drawable-xxxhdpi/icon.png", "width": 192, "height": 192 }
     ],
