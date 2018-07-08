@@ -3,6 +3,7 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "MMjBzzaLztnmyjEs5WHZrCcJSo0=",
 			"path": "github.com/disintegration/imaging",
 			"revision": ""
 		},
