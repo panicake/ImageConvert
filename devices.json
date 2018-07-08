@@ -1,0 +1,57 @@
+{
+  "icon": {
+    "android": [
+      { "path": "icon/android/drawable-ldpi/icon.png", "width": 36, "height": 36 },
+      { "path": "icon/android/drawable-mdpi/icon.png", "width": 48, "height":48 },
+      { "path": "icon/android/drawable-hdpi/icon.png", "width": 72, "height": 72 },
+      { "path": "icon/android/drawable-xhdp/icon.png", "width": 96, "height": 96 },
+      { "path": "icon/android/drawable-xxhdpi/icon.png", "width": 144, "height": 144 },
+      { "path": "icon/android/drawable-xxxhdpi/icon.png", "width": 192, "height": 192 }
+    ],
+    "ios": [
+      { "path": "icon/ios/icon-small.png", "width": 29, "height": 29 },
+      { "path": "icon/ios/icon-small@2x.png", "width": 58, "height": 58 },
+      { "path": "icon/ios/icon-50.png", "width": 50, "height": 50 },
+      { "path": "icon/ios/icon-50@2x.png", "width": 100, "height": 100 },
+      { "path": "icon/ios/icon-60.png", "width": 60, "height": 60 },
+      { "path": "icon/ios/icon-60@2x.png", "width": 120, "height": 120 },
+      { "path": "icon/ios/icon-60@3x.png", "width": 180, "height": 180 },
+      { "path": "icon/ios/icon-40.png", "width": 40, "height": 40 },
+      { "path": "icon/ios/icon-40@2x.png", "width": 80, "height": 80 },
+      { "path": "icon/ios/icon.png", "width": 57, "height": 57 },
+      { "path": "icon/ios/icon@2x.png", "width": 114, "height": 114 },
+      { "path": "icon/ios/icon-72.png", "width": 72, "height": 72 },
+      { "path": "icon/ios/icon-72@2x.png", "width": 144, "height": 144 },
+      { "path": "icon/ios/icon-76.png", "width": 76, "height": 76 },
+      { "path": "icon/ios/icon-76@2x.png", "width": 152, "height": 152 }
+    ]
+  },
+  "splash": {
+    "android": [
+      { "path": "screen/android/splash-port-ldpi.png", "width": 320, "height": 200 },
+      { "path": "screen/android/splash-port-mdpi.png", "width": 480, "height": 320 },
+      { "path": "screen/android/splash-port-hdpi.png", "width": 800, "height":480 },
+      { "path": "screen/android/splash-port-xhdpi.png", "width": 1280, "height": 720 },
+      { "path": "screen/android/splash-port-xxhdpi.png", "width": 1600, "height": 960 },
+      { "path": "screen/android/splash-port-xxxhdpi.png", "width": 1920, "height": 1280 },
+      { "path": "screen/android/splash-land-ldpi.png", "width": 200, "height": 320 },
+      { "path": "screen/android/splash-land-mdpi.png", "width": 320, "height": 480 },
+      { "path": "screen/android/splash-land-hdpi.png", "width": 480, "height":800 },
+      { "path": "screen/android/splash-land-xhdpi.png", "width": 720, "height": 1280 },
+      { "path": "screen/android/splash-land-xxhdpi.png", "width": 960, "height": 1600 },
+      { "path": "screen/android/splash-land-xxxhdpi.png", "width": 1280, "height": 1920 }
+    ],
+    "ios": [
+      { "path": "screen/ios/Default~iphone.png",  "width": 320,  "height": 480 },
+      { "path": "screen/ios/Default@2x~iphone.png",  "width": 640,  "height": 960 },
+      { "path": "screen/ios/Default-Portrait~ipad.png",  "width": 768,  "height": 1024 },
+      { "path": "screen/ios/Default-Portrait@2x~ipad.png",  "width": 1536,  "height": 2048 },
+      { "path": "screen/ios/Default-Landscape~ipad.png",  "width": 1024,  "height": 768 },
+      { "path": "screen/ios/Default-Landscape@2x~ipad.png",  "width": 2048,  "height": 1536 },
+      { "path": "screen/ios/Default-568h@2x~iphone.png",  "width": 640,  "height": 1136 },
+      { "path": "screen/ios/Default-667h.png",  "width": 750,  "height": 1334 },
+      { "path": "screen/ios/Default-736h.png",  "width": 1242,  "height": 220 },
+      { "path": "screen/ios/Default-Landscape-736h.png",  "width": 2208,  "height": 1242 }
+    ]
+  }
+}
