@@ -14,9 +14,11 @@ import (
 
 var convertType string
 var path string
+var config string
 func AddFlags(fs *pflag.FlagSet) {
 	fs.StringVar(&convertType, "type", "icon", "convert icon, splash")
 	fs.StringVar(&path, "path", "icon.png", "image path")
+	fs.StringVar(&config, "config", "devices.json", "image path")
 	fs.Parse(os.Args[1:])
 }
 
@@ -72,7 +74,7 @@ func main() {
 		log.Fatalln("Image path is empty")
 		return
 	}
-	devices, err := ioutil.ReadFile("devices.json")
+	devices, err := ioutil.ReadFile(config)
 	if err != nil {
 		log.Fatalln(err.Error())
 		return
