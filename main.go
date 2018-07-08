@@ -45,7 +45,7 @@ func pathExists(path string) (bool, error) {
 
 func generateImage(img image.Image, sizeSpec map[string][]SizeSpec)  {
 	for k, v := range sizeSpec {
-		log.Printf("generate %s icon", k)
+		log.Printf("generate %s ", k)
 		for _, spec := range v {
 			index := strings.LastIndex(spec.Path,"/")
 			path := spec.Path[:index]
@@ -91,8 +91,10 @@ func main() {
 		return
 	}
 	if convertType == "icon" {
+		log.Println("start to generate icon")
 		generateImage(originImg, deviceConfig.Icon)
 	} else if convertType == "splash" {
+		log.Println("start to generate splash")
 		generateImage(originImg, deviceConfig.Splash)
 	}
 
